@@ -1,0 +1,11 @@
+s3:
+  url: https://s3.example.org
+  region: region-1
+  username: username
+  password: password
+  bucket: bucket_name
+dirs:
+  - path: path/to/first/folder
+    key_prefix: first_folder
+  - path: path/to/second/folder
+    key_prefix: second_folder
